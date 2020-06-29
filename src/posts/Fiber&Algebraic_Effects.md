@@ -6,7 +6,7 @@ tags:
   - "React"
   - "JavaScript"
   - "FP"
-  - "Coroutine"
+  - "Coroutines"
 ---
 
 ## Fiber

@@ -1,19 +1,14 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="177.000000pt" height="177.000000pt" viewBox="0 0 177.000000 177.000000"
- preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,177.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M0 885 l0 -885 885 0 885 0 0 885 0 885 -885 0 -885 0 0 -885z m1621
--97 c43 -12 44 -14 27 -70 -11 -37 -14 -39 -42 -34 -118 23 -164 16 -184 -30
--23 -48 6 -83 108 -134 114 -56 150 -104 150 -197 0 -73 -23 -118 -79 -158
--41 -29 -47 -30 -149 -30 -70 0 -119 5 -141 14 -31 14 -33 17 -28 54 8 58 18
-64 74 44 109 -39 197 -9 197 66 0 47 -23 71 -109 114 -117 58 -155 106 -155
-193 0 78 36 132 110 164 42 18 167 21 221 4z m-383 -45 l-3 -48 -87 -3 -88 -3
-0 -274 0 -275 -60 0 -60 0 0 275 0 274 -87 3 -88 3 -3 48 -3 47 241 0 241 0
--3 -47z"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ts-tag</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ts-tag-source">
+            <polygon id="矩形" fill="#0E3999" points="0 0 200 0 200 200 0 200"></polygon>
+            <text id="TS" font-family="DINAlternate-Bold, DIN Alternate" font-size="96" font-weight="bold" line-spacing="96" fill="#FFFFFF">
+                <tspan x="76" y="181">TS</tspan>
+            </text>
+        </g>
+    </g>
 </svg>

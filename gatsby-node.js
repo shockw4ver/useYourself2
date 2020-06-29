@@ -6,7 +6,7 @@ exports.onCreateNode = ({ node, getNode, actions: { createNodeField } }) => {
     const slug = createFilePath({
       node,
       getNode,
-      basePath: 'pages'
+      basePath: 'posts'
     })
 
     createNodeField({

@@ -1,23 +1,14 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="177.000000pt" height="177.000000pt" viewBox="0 0 177.000000 177.000000"
- preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,177.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M0 885 l0 -885 885 0 885 0 0 885 0 885 -885 0 -885 0 0 -885z m957
--365 c59 -36 91 -134 73 -229 -11 -63 -32 -96 -80 -128 -45 -31 -115 -31 -161
-0 -106 70 -106 284 0 354 44 30 123 31 168 3z m360 0 c59 -36 91 -134 73 -229
--11 -63 -32 -96 -80 -128 -45 -31 -115 -31 -161 0 -106 70 -106 284 0 354 44
-30 123 31 168 3z m320 -10 c62 -38 63 -147 2 -193 -15 -10 -47 -22 -73 -24
-l-46 -6 0 -68 0 -69 -35 0 -35 0 0 190 0 190 78 0 c59 0 85 -5 109 -20z"/>
-<path d="M817 451 c-47 -57 -43 -176 8 -227 81 -81 170 68 119 196 -27 67 -84
-81 -127 31z"/>
-<path d="M1177 451 c-47 -57 -43 -176 8 -227 81 -81 170 68 119 196 -27 67
--84 81 -127 31z"/>
-<path d="M1527 474 c-4 -4 -7 -34 -7 -66 0 -57 0 -58 28 -58 75 0 85 107 12
-125 -14 3 -29 3 -33 -1z"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>oop-tag</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="oop-tag-source">
+            <rect id="矩形" fill="#005D36" x="0" y="0" width="200" height="200"></rect>
+            <text id="OOP" font-family="DINAlternate-Bold, DIN Alternate" font-size="72" font-weight="bold" line-spacing="96" fill="#FFFFFF">
+                <tspan x="56" y="166">OOP</tspan>
+            </text>
+        </g>
+    </g>
 </svg>

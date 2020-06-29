@@ -1,11 +1,14 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="177.000000pt" height="177.000000pt" viewBox="0 0 177.000000 177.000000"
- preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,177.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>js-tag</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="js-tag-source">
+            <rect id="矩形" fill="#FFF839" x="0" y="0" width="200" height="200"></rect>
+            <text id="JS" font-family="DINAlternate-Bold, DIN Alternate" font-size="96" font-weight="bold" line-spacing="96" fill="#000000">
+                <tspan x="86" y="183">JS</tspan>
+            </text>
+        </g>
+    </g>
 </svg>

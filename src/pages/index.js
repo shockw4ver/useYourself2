@@ -1,4 +1,5 @@
 import React from "react"
+import { useNavigate } from '@reach/router'
 import { graphql } from "gatsby"
 import Layout from "../layout"
 import {
@@ -13,9 +14,15 @@ import {
   TagList,
   TagListItem
 } from '../components/Tag'
-import IconJavaScript from '../assets/javascript.svg'
+import getTagId from '../constants/TagIds'
+import getTagGraph from '../constants/TagGraphs'
 
 export default function Home({ data }) {
+  const navigate = useNavigate()
+
+  function handleTitleClick(slug) {
+    navigate(slug)
+  }
   
   return (
     <Layout>
@@ -26,7 +33,7 @@ export default function Home({ data }) {
               {node.frontmatter.date}
             </PostItem.Date>
 
-            <PostItem.Title>
+            <PostItem.Title onClick={() => handleTitleClick(node.fields.slug)}>
               {node.frontmatter.title}
             </PostItem.Title>
 
@@ -34,7 +41,7 @@ export default function Home({ data }) {
 
             <TagList>
               {(node.frontmatter.tags || []).map((item, index) => (
-                <TagListItem>
+                <TagListItem key={item}>
                   <Flip
                     height={index === 0 ? 100 : 50}
                     width={index === 0 ? 100 : 50}
@@ -50,7 +57,7 @@ export default function Home({ data }) {
                     contentMap={{
                       3: (
                         <FlipTagWrapper>
-                          <img src={IconJavaScript} alt="javascript" />
+                          <img src={getTagGraph(getTagId(item))} alt="javascript" />
                         </FlipTagWrapper>
                       )
                     }}
