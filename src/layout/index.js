@@ -1,26 +1,13 @@
 import React from "react"
-import { Global, css } from "@emotion/core"
+import { Global } from "@emotion/core"
 import Header from './header'
 import Main from './main'
+import GlobalStyles from './GlobalStyles'
 
 export default function Layout({ children }) {
   return (
     <>
-      <Global
-        styles={css`
-          html,
-          body {
-            height: 100%;
-            width: 100%;
-          }
-
-          #___gatsby,
-          #gatsby-focus-wrapper {
-            height: 100%;
-            width: 100%;
-          }
-        `}
-      />
+      <Global styles={GlobalStyles} />
       <Header />
       <Main>
         {children}

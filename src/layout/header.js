@@ -1,6 +1,9 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { Link } from 'gatsby'
+import {
+  useNavigate,
+  useLocation
+} from '@reach/router'
 
 const Wrapper = styled.header`
   height: 60px;
@@ -18,7 +21,7 @@ const Nav = styled.nav`
 `
 
 const NavItem = styled.div`
-  color: #999;
+  color: ${props => props.active ? '#333' : '#999' };
   font-size: 20px;
   font-weight: bold;
 
@@ -34,21 +37,36 @@ const Logo = styled.div`
   font-weight: bold;
 `
 
+const navList = [
+  { path: '/', label: 'Home' },
+  { path: '/posts', label: 'Posts' },
+  { path: '/', label: 'Samael', logo: true },
+  { path: '/tags', label: 'Tags' },
+  { path: '/about', label: 'about' }
+]
+
 export default () => {
+  const navigate = useNavigate()
+  const location = useLocation()
+
+  function handleNavClick(path) {
+    navigate(path)  
+  }
+
   return (
     <Wrapper>
       <Nav>
-        <NavItem>
-          <Link to="/">Home</Link>
-        </NavItem>
-        <NavItem>Posts</NavItem>
-
-        <Logo>
-          Samael
-        </Logo>
-
-        <NavItem>Tags</NavItem>
-        <NavItem>About</NavItem>
+        {navList.map(item => item.logo ? (
+          <Logo>{ item.label }</Logo>
+        ) : (
+          <NavItem
+            key={item.label}
+            onClick={() => handleNavClick(item.path)}
+            active={location.pathname === item.path}
+          >
+            {item.label}
+          </NavItem>
+        ))}
       </Nav>
     </Wrapper>
   )

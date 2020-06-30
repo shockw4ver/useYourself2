@@ -1,7 +1,10 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../layout'
-import '../assets/md-themes/academic/academic.scss'
+import Layout from '../../layout'
+import {
+  Wrapper,
+  Heading
+} from './widgets'
 
 export default function({
   data: {
@@ -10,10 +13,10 @@ export default function({
 }) {
   return (
     <Layout>
-      <div className="ac">
-        <h1>{ markdownRemark.frontmatter.title }</h1>
+      <Wrapper className="modest_markdown_theme">
+        <Heading>{ markdownRemark.frontmatter.title }</Heading>
         <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
-      </div>
+      </Wrapper>
     </Layout>
   )
 }

@@ -9,9 +9,24 @@ module.exports = {
     title: '123',
   },
   plugins: [
-    `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
     `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: 'language-',
+              showLineNumber: false,
+              numberLines: true,
+              noInlineHighlight: true
+            }
+          }
+        ]
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
