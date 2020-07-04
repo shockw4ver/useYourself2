@@ -7,6 +7,9 @@ tags:
   - "JavaScript"
 ---
 
+浅层梳理面向对象的基本要素及实践方式
+<!-- excerpt_end -->
+
 - 封装（Encapsulation）
 - 抽象（Abstraction）
 

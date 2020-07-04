@@ -5,6 +5,7 @@ export default css`
   body {
     height: 100%;
     width: 100%;
+    font-family: Georgia,serif;
   }
 
   #___gatsby,
